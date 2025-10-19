@@ -1,0 +1,44 @@
+.main{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+
+nav{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+
+ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 80%;
+        font-size: 18px;
+    li a{
+    color: white;
+    text-decoration: none;
+        }
+    }
+    .logo{
+            width: 60px;
+            height: 60px;
+    }
+    }
+button{
+    width: 215px;
+    height: 40px;
+    background-color: #D400B3;
+    color: white;
+    font-size: 24px;
+    border: none;
+    }
+}
