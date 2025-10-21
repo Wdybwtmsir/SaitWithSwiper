@@ -10,9 +10,9 @@
     .pic_center{
         position: absolute;
         top: 10.5%;
-        left: 35%;
-        height: 733px;
-        width: 555px;
+        left: 70%;
+        height: 30%;
+        width: 30%;
     }
     .p_form{
         background-color: #262627;
@@ -99,5 +99,117 @@
             justify-content: center;
             align-items: center;
         }
+    }
+}
+@media screen and (max-width: 768px) {
+    .partners_sec {
+        height: auto;
+        margin-bottom: 8vh;
+        padding: 20px 10px;
+    }
+    .pic_center {
+        width: 10%;
+        height: 10%;
+        margin: 0 auto 20px;
+    }
+    
+    .p_form {
+        width: 100%;
+        height: auto;
+        background-color: #262627;
+        border-bottom: 5px solid #D400B3;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .p_content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .p_content p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    
+    .p_content form {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .p_content form input {
+        width: 100%;
+        height: 45px;
+        font-size: 16px;
+        border: 1px solid rgba(229, 229, 229, 0.3);
+        background-color: rgba(196, 196, 196, 0.1);
+        padding: 0 10px;
+    }
+    
+    .p_content form button {
+        width: 100%;
+        height: 45px;
+        font-size: 18px;
+        background-color: #D400B3;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .partners_title {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .partners_title > div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    
+    .partners_title p {
+        width: 90%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    
+    .partners_ul {
+        width: 100%;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    .p_card, .p_special {
+        position: static;
+        width: 90%;
+        max-width: 341px;
+        height: auto;
+        min-height: 100px;
+        background-color: rgba(196, 196, 196, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
     }
 }

@@ -29,3 +29,25 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .gal_sec {
+    height: auto;  
+    padding: 20px 10px;
+    margin-bottom: 10vh;
+    justify-content: center;
+  }
+
+  .swiper {
+    height: 50vw;  
+  }
+
+  .swiper-slide {
+    font-size: 14px;
+    background: #555;
+  }
+
+  .swiper-slide img {
+    height: 100%;
+  }
+}

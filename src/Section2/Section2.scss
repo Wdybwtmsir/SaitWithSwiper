@@ -36,3 +36,44 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+  .stat_section {
+    height: auto;
+    padding: 20px 10px;
+
+    div {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .stat_text {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      ul {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          margin-bottom: 15px;
+
+          h3 {
+            font-size: 36px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

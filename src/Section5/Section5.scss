@@ -94,3 +94,111 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .trend_sec {
+        width: 95%;
+        height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        align-items: center;
+    }
+
+    .trend_title {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .trend_title h2, .trend_title h3 {
+        font-size: 1.8rem; 
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+        align-items: center;
+    }
+
+    ul li {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .trend_card {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .trend_card h5 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .text_card {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .text_card p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .img_cards {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        margin-top: 15px;
+    }
+
+    .img_cards .w_card {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        width: 40px;
+        height: auto;
+    }
+
+    .img_cards .bg_card {
+        width: 100%;
+        height: auto;
+    }
+
+    .trend_btn {
+        width: 100%;
+        justify-content: center;
+        margin-top: 25px;
+        height: auto;
+    }
+
+    .trend_btn button {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 5px 10px;
+    }
+
+    .trend_btn button img {
+        margin: 0 8px 0 0;
+        align-self: center;
+        height: 18px;
+        width: 18px;
+    }
+}

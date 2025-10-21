@@ -46,3 +46,55 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .create_sec {
+        width: 95%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .create_sec h2 {
+        height: auto;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .create_sec ul {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+
+    .create_card {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 15px;
+        background-image: none;
+        border: 1px solid rgba(229, 229, 229, 0.3);
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .create_card div {
+        width: 70%;
+        height: auto;
+        padding-left: 15px;
+        justify-content: flex-start;
+    }
+
+    .create_card h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .create_card p {
+        font-size: 14px;
+    }
+
+    .create_card img {
+        width: 40px;
+        height: 55px;
+    }
+}
